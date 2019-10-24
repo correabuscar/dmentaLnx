@@ -1,18 +1,22 @@
-# Arcane Zeta Tali Ilium
+# ArcaneZetaTaliIlium
 
-Arcane Zeta Tali Ilium is (a work in progress) something to improve accessibility... (FIXME)  
+ArcaneZetaTaliIlium is (a work in progress) ... something ... to improve accessibility... (FIXME)  
 Think replacing RAM(random access memory) with graphs(edges&nodes) and use that as a foundation for building up systems and subsystems (stacked CPUs+databases?)  
 The project name is temporary.
 
+It should allow for storing/retrieving/handling/etc. omniteric knowledge :))  
+"Omniteric knowledge is that which remains open and accessible to all people depending upon their own ambition and enthusiasm to discover." - src: The Duodoxy: The Principles of The Logical Cosmos by Cometan (see google)  
+TODO: good definition, but should I use "exoteric" instead? "intended for or likely to be understood by the general public.", "Exoteric refers to knowledge that is outside, and independent from, a person's experience and can be ascertained by anyone (related to common sense). " - src: google and https://en.wikipedia.org/wiki/Exoteric
+
 ## Usage
 
-FIXME: nothing here yet, we'll go the Rust way soon.
+FIXME: nothing here yet
 
 
 
 ## Authors
 
-Currently almost(?) everything (all functions, files, text) in this repository are made by me @ActualizeInMaterial and I've dedicated this repository to public domain.
+Currently almost(?) everything (all functions, files, text) in this repository are made by me @ActualizeInMaterial and I've dedicated this repository to public domain. I've been using different nicks over time, but they're all me.  
 
 This readme is originally from: https://github.com/davispuh/CLI-Console/blob/master/README.md
 
@@ -29,7 +33,11 @@ This kinda explains the why: https://github.com/twolfson/twolfson.com/blob/c59f6
  
  If you're wondering why CC0 might be preferred? Who knows: https://github.com/FailMan3D/shsls-spacecraft/blob/7cff5b4b6405f242749e8787e595d463dbbd67a2/LICENSE.note Also see the previous link(on the why).
  
-I also added CC0 (in the file LICENSE) which should be the same thing(=public domain)! So for those who have a problem with Unlicense, they can pick CC0. Assume this is released under both(or either) - the result is the same: public domain! So pick the one you're confortable with and assume this is released under it. There! Free enough??! ;-) Have fun!
+I also added CC0 (in the file LICENSE) which should be the same thing(=public domain)! So for those who have a problem with Unlicense, they can pick CC0. Assume this is released under both(or either) - the result is the same: public domain! So pick the one you're confortable with and assume this is released under it. There! Free enough??! ;-) Have fun!  
+
+
+Actually, for even more freedom, I'm releasing this also under the terms of the MIT License and/or the Apache License 2.0  
+TODO/FIXME: contributing needs changing due to this ^
  
 ## Contributing
 

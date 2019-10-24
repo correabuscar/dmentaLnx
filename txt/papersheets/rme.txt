@@ -1,6 +1,6 @@
 These are the demlinks paper sheets which I used irl as I was brainstorming through time
-Made between 2002-2015 by ActualizeInMaterial, licensed under CC0 and/or UNLICENSE!
-Original location of all this:
+Made between 2002-2016 by ActualizeInMaterial, licensed under CC0 and/or UNLICENSE!
+Location of all this:
 https://github.com/ActualizeInMaterial/ArcaneZetaTaliIlium
 in subfolders of txt/papersheets/
 
@@ -25,5 +25,5 @@ find . -type f -iname '*.jpg' -exec jpeginfo -c {} \; | grep -E "WARNING|ERROR"
 
 --------
 files with year 2000 is actually year 2015 ! (but couldn't set it on the
-device!)
+device due to non-functioning buttons!)
 ----------
