@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#src: https://stackoverflow.com/questions/4950725/how-can-i-see-which-git-branches-are-tracking-which-remote-upstream-branch/16879922#16879922
+while read branch; do
+  upstream=$(git rev-parse --abbrev-ref $branch@{upstream} 2>/dev/null)
+  if [[ $? == 0 ]]; then
+    echo $branch tracks $upstream
+  else
+    echo $branch has no upstream configured
+  fi
+done < <(git for-each-ref --format='%(refname:short)' refs/heads/*)
