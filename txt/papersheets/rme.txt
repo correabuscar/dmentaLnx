@@ -5,7 +5,7 @@ https://github.com/correabuscar/dmentaLnx/tree/master/txt/papersheets
 or, obsoletes:
 older versions:
 https://github.com/ActualizeInMaterial/ArcaneZetaTaliIlium in subfolders of txt/papersheets/
-or the real beginning(old, since 06 March 2005): https://sourceforge.net/projects/demlinks/
+or the real beginning(old, since 06 March 2005, but that git repo I deleted via ssh long ago): https://sourceforge.net/projects/demlinks/
 
 ----
 *.JPG = exported with gimp (to clean exif and any/all metadata) but image unmodified(kinda, since it's jpeg => re-econded on export) 
