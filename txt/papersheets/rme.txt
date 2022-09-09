@@ -2,9 +2,10 @@ These are the dmentaLnx (formerly known as demlinks) paper sheets which I used i
 Made between 2002-2016 by Emanuel Czirai, licensed under CC0 and/or UNLICENSE!
 Location of all this:
 https://github.com/correabuscar/dmentaLnx/tree/master/txt/papersheets
-or, older version:
-https://github.com/ActualizeInMaterial/ArcaneZetaTaliIlium
-in subfolders of txt/papersheets/
+or, obsoletes:
+older versions:
+https://github.com/ActualizeInMaterial/ArcaneZetaTaliIlium in subfolders of txt/papersheets/
+or the real beginning(old, since 06 March 2005): https://sourceforge.net/projects/demlinks/
 
 ----
 *.JPG = exported with gimp (to clean exif and any/all metadata) but image unmodified(kinda, since it's jpeg => re-econded on export) 
