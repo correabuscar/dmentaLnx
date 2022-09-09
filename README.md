@@ -1,6 +1,6 @@
-# ArcaneZetaTaliIlium
+# dmentaLnx  (formerly known as demLinks)
 
-ArcaneZetaTaliIlium is (a work in progress) ... something ... to improve accessibility... (FIXME)  
+-dmentaLnx is (a work in progress) ... something ... to improve accessibility... (FIXME)  
 Think replacing RAM(random access memory) with graphs(edges&nodes) and use that as a foundation for building up systems and subsystems (stacked CPUs+databases?)  
 The project name is temporary.
 
@@ -16,9 +16,9 @@ FIXME: nothing here yet
 
 ## Authors
 
-Currently almost(?) everything (all functions, files, text) in this repository are made by me @ActualizeInMaterial and I've dedicated this repository to public domain. I've been using different nicks over time, but they're all me.  
+Currently almost(?) everything (all functions, files, text) in this repository are made by me Emanuel Czirai and I've dedicated this repository to public domain. I've been using different nicks over time, but they're all me.  
 
-This readme is originally from: https://github.com/davispuh/CLI-Console/blob/master/README.md
+This readme template is originally from: https://github.com/davispuh/CLI-Console/blob/master/README.md
 
 ## Unlicense
 
