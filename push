@@ -1,0 +1,30 @@
+#!/bin/bash
+
+#FIXME: re-enable backupto branch!
+set -e
+trap onexit EXIT SIGINT
+onexit() {
+  set +e
+  /usr/bin/sync || time '/home/user/bin/sync'
+  gpgconf --kill gpg-agent
+}
+
+#FIXME:re-enable backup section
+#git push backupto
+#/usr/bin/sync || time '/home/user/bin/sync'
+#if [[ "$1" =~ back ]]; then
+#  echo 'Done pushing only backup'
+#  exit 0
+#fi
+
+changecolor() {
+  sed -re 's/^((fatal|error):.*)$/'"$(tput setab 1)"'\1'"$(tput sgr0)"'/'
+  #^ the 'sed' is needed to highlight the errors which if they happen the exitcode will still be zero!(possibly due to the first remote succeeding!) TODO: fix 'git' to exit code non zero if any of the repos/urls listed in remote 'origin'(for example) fail.
+}
+
+time git push -u --all --follow-tags origin |& changecolor
+time git push -f -u --tags origin |& changecolor  #obsolted by the above ^ --follow-tags  #doneFIXME: not actually obsoleted! new tags aren't added without this push --tags command! the --folow-tags thing doesn't do it!
+#the -u is only needed the first time, or if you've use -u for other remotes like backupto!
+#FIXME: uncomment# time git push -f -u --tags backupto |& changecolor
+#-f aka force is necessary in the case the tag got updated to point to a new commit, so the push won't fail in this case!
+echo "All done"
