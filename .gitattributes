@@ -1,0 +1,15 @@
+#           The simplest way to mark a file as binary is to unset the diff attribute in the .gitattributes file:
+#               *.ps -diff
+#           This will cause Git to generate Binary files differ (or a binary patch, if binary patches are enabled) instead of a regular diff.
+#from man 5 gitattributes
+#*.jpg -diff
+#^ tells git diff to treat *.jpg as binary, forcefully.
+#*.JPG binary diff=hex
+#^src: https://superuser.com/a/1251397/1727558
+#^ tell git diff on a .JPG file(s) to use the section from ~/.gitconfig like this one:
+#[diff "hex"]
+#    textconv = hexdump -v -C
+#    binary = true
+#    #^ src: https://superuser.com/a/1251397/1727558
+# and thus run `hexdump` on each .JPG and then diff that output!
+#nvm that, I added `git diff --binary --hexdump` patch: /patches/portage/dev-vcs/git.reused/git85play_git_diff_hexdump.patch for dev-vcs//git-2.37.3 on Gentoo
