@@ -1,0 +1,3 @@
+#!/bin/bash
+#src: https://stackoverflow.com/a/25107081/19999437
+cargo test -- --nocapture

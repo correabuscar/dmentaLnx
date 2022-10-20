@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+  "rand",
+  "id",
+  "fifo_hashset",
+]
