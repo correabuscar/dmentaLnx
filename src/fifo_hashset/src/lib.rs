@@ -1,5 +1,22 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
+#![deny(clippy::all, clippy::pedantic, clippy::nursery, warnings, future_incompatible, nonstandard_style,
+        non_ascii_idents, clippy::restriction, rust_2018_compatibility, rust_2021_compatibility, unused)]
+#![allow(clippy::print_stdout, clippy::use_debug, clippy::missing_docs_in_private_items)]
+
+#![allow(clippy::blanket_clippy_restriction_lints)] //workaround clippy
+
+#![allow(clippy::needless_return)]
+
+// might want to deny later:
+#![allow(clippy::default_numeric_fallback)] // might want to deny later!
+#![allow(clippy::dbg_macro)]
+
+#![feature(stmt_expr_attributes)]
+
+#[inline] #[must_use]
+pub const fn add(left: usize, right: usize) -> usize {
+    #[allow(clippy::arithmetic)]
+    #[allow(clippy::integer_arithmetic)]
+    return left + right;
 }
 
 #[cfg(test)]
