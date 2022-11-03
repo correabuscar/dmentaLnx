@@ -1,0 +1,24 @@
+.log so it doesn't auto-wrap lines like .txt does! (in nvim/neovide)
+---------------
+---------------
+
+I must use a different git branch for each 0.x version so that eg. even if I'm at 0.9.y now, I can still release a bugfix for 0.8.z if I wanted to, by switching to the 0.8.x branch (where 'x' is not a number, but part of the branch name, or can use just '0.8._' or '0.8' or wtw).
+This branch should be per crate, not per workspace! So, these crates that I have here, if I ever release them on crates.io they'd have their own github repo and then I'd apply the above branch rule.
+
+Why? for example:
+[dependencies]
+rand = "0.8.3"
+"The number 0.8.3 is actually shorthand for ^0.8.3, which means any version that is at least 0.8.3 but below 0.9.0." src: https://rust-book.cs.brown.edu/ch02-00-guessing-game-tutorial.html#updating-a-crate-to-get-a-new-version
+
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+---------------
+
