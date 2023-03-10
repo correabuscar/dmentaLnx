@@ -14,7 +14,7 @@
 
 #[inline] #[must_use]
 pub const fn add(left: usize, right: usize) -> usize {
-    #[allow(clippy::arithmetic)]
+    #[allow(clippy::arithmetic_side_effects)]
     #[allow(clippy::integer_arithmetic)]
     return left + right;
 }

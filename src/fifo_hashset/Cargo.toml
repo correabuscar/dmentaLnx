@@ -5,7 +5,7 @@ description = "TODO"
 edition = "2021"
 license = "MIT OR Apache-2.0 OR CC0-1.0 OR Unlicense OR MIT-0"
 publish = false
-rust-version = "1.64" #not really needed but hey.
+rust-version = "1.67.1" #not really needed but hey.
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
