@@ -1,1 +1,3 @@
-nvim src/lib.rs
+#!/bin/bash
+
+${EDITOR:-nvim} src/lib.rs
