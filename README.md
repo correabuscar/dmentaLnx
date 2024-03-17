@@ -37,17 +37,17 @@ I also added CC0 (in the file LICENSE) which should be the same thing(=public do
 
 
 Actually, for even more freedom, I'm releasing this also under the terms of the MIT License and/or the Apache License 2.0  
-TODO/FIXME: contributing needs changing due to this ^
+TODO/FIXME: contributing needs changing due to this ^, like properly changed and ensured it's safe for everyone involved.  
  
 ## Contributing
 
-Feel free to improve anything what you see is improvable.
+Don't feel free :)) to improve anything what you see is improvable. Because I'm not sure how well all this contributing text is yet, and thus might get ourselves into trouble, see: https://choosealicense.com/no-permission/
 
 
-**Warning**: By sending pull request to this repository you dedicate any and all copyright interest in pull request (code files and all other) to the public domain. (files will be in public domain even if pull request doesn't get merged)
+**Warning**: By sending pull request to this repository you agree to release all that code(and other) under the same licenses as this project and dedicate any and all copyright interest in pull request (code files and all other) to the public domain. (files will be in public domain and under all licenses of this project even if pull request doesn't get merged)
 
-Also before sending pull request you acknowledge that you own all copyrights or have authorization to dedicate them to public domain.
+Also before sending pull request you acknowledge that you own all copyrights or have authorization to release under same licenses and dedicate them to public domain.
 
-If you don't want to dedicate code to public domain or if you're not allowed to (eg. you don't own required copyrights) then DON'T send pull request.
+If you don't want (to dedicate code to public domain and under the same licenses as this project) or if you're not allowed to (eg. you don't own required copyrights) then DON'T send pull request.
 
 
