@@ -1,18 +1,30 @@
-#![deny(clippy::all, clippy::pedantic, clippy::nursery, warnings, future_incompatible, nonstandard_style,
-        non_ascii_idents, clippy::restriction, rust_2018_compatibility, rust_2021_compatibility, unused)]
-#![allow(clippy::print_stdout, clippy::use_debug, clippy::missing_docs_in_private_items)]
-
+#![deny(
+    clippy::all,
+    clippy::pedantic,
+    clippy::nursery,
+    warnings,
+    future_incompatible,
+    nonstandard_style,
+    non_ascii_idents,
+    clippy::restriction,
+    rust_2018_compatibility,
+    rust_2021_compatibility,
+    unused
+)]
+#![allow(
+    clippy::print_stdout,
+    clippy::use_debug,
+    clippy::missing_docs_in_private_items
+)]
 #![allow(clippy::blanket_clippy_restriction_lints)] //workaround clippy
-
 #![allow(clippy::needless_return)]
-
 // might want to deny later:
 #![allow(clippy::default_numeric_fallback)] // might want to deny later!
 #![allow(clippy::dbg_macro)]
-
 #![feature(stmt_expr_attributes)]
 
-#[inline] #[must_use]
+#[inline]
+#[must_use]
 pub const fn add(left: usize, right: usize) -> usize {
     #[allow(clippy::arithmetic_side_effects)]
     //#[allow(clippy::integer_arithmetic)] //got renamed to:
@@ -37,7 +49,7 @@ mod tests {
         use heapless::FnvIndexSet;
         const LAST: usize = 128; //must be power of two, FnvIndexSet requirement
         type Numbers = u32;
-        let mut nums = FnvIndexSet ::< Numbers, LAST >:: new();
+        let mut nums = FnvIndexSet::<Numbers, LAST>::new();
         const FIRST: Numbers = 1;
         const THROWER: Numbers = 1000;
         use std::ops::RangeInclusive;
