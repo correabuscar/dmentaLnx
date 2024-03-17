@@ -37,7 +37,7 @@ mod tests {
         use heapless::FnvIndexSet;
         const LAST: usize = 128; //must be power of two, FnvIndexSet requirement
         type Numbers = u32;
-        let mut nums = FnvIndexSet::<Numbers, LAST>::new();
+        let mut nums = FnvIndexSet ::< Numbers, LAST >:: new();
         const FIRST: Numbers = 1;
         const THROWER: Numbers = 1000;
         use std::ops::RangeInclusive;
